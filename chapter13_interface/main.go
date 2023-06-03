@@ -44,4 +44,12 @@ func main() {
 	// 关键点
 	laptop.Working(phone)
 	laptop.Working(camera)
+
+	var usbArray [3]Usb
+	fmt.Println(usbArray)
+
+	usbArray[0] = Phone{}
+	usbArray[1] = Camera{}
+	usbArray[2] = Phone{}
+	fmt.Println(usbArray)
 }
